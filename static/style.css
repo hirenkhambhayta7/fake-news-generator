@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background: #111;
+    color: white;
+    margin-top: 100px;
+}
+
+h1{
+    color: red;
+}
+
+#news{
+    margin: 40px auto;
+    width: 60%;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    font-size: 24px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+}
+
+#news.show{
+    opacity: 1;
+    transform: scale(1);
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: darkred;
+}

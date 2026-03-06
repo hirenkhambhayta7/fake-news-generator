@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Breaking News Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>🚨 Fake Breaking News Generator</h1>
+
+<div id="news">Click the button to generate news</div>
+
+<button onclick="generateNews()">Generate News</button>
+
+<script>
+function generateNews(){
+    fetch("/generate")
+    .then(response => response.json())
+    .then(data => {
+        const newsBox = document.getElementById("news")
+
+        newsBox.innerText = data.headline
+        newsBox.classList.remove("show")
+        void newsBox.offsetWidth
+        newsBox.classList.add("show")
+    })
+}
+</script>
+
+</body>
+</html>
