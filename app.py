@@ -4,56 +4,42 @@ import random
 app = Flask(__name__)
 
 subjects = [
-    "Salman Khan",
-    "Aamir Khan",
-    "Akshay Kumar",
-    "Hrithik Roshan",
-    "A disgruntled Halwai",
-    "Your Ex-Boss",
-    "An over-enthusiastic Neighborhood Aunty",
-    "Narendra Modi's personal stylist",
-    "A ChatGPT-obsessed Junior Developer",
-    "The guy who sells Vada Pav outside the stadium",
-    "A very confused Mumbai local train commuter",
-    "A gym bro who forgot his protein shake",
-    "An AI that thinks it is a Punjabi singer",
-    "A billionaire trying to use a coupon"
+    "A legendary Bollywood Superstar",
+    "Your crush's overprotective brother",
+    "A very judgmental HR Manager",
+    "The person who left the sink dirty",
+    "A 'Life Coach' with zero followers",
+    "An Instagram influencer without a filter",
+    "The guy who keeps 'replying all' to emails",
+    "A politician caught eating street food",
+    "A suspiciously wealthy 'Crypto King'",
+    "The ghost of an angry Math teacher"
 ]
 
 actions = [
-    "launches",
-    "cancels",
-    "announces",
-    "reveals",
-    "apologizes",
-    "marries",
-    "starts a protest against gravity",
-    "performs an aggressive belly dance",
-    "accidentally eats a whole laptop",
-    "challenges a stray dog to a rap battle",
-    "tries to pay for a Ferrari with Monopoly money",
-    "invests all savings in a 'Magic Churan' business",
-    "files a police complaint against a mosquito",
-    "tries to install Windows on a toaster",
-    "offers free spiritual advice"
+    "gets caught sniffing a stranger's hair",
+    "accidentally sends a 'Love You' text to the CEO",
+    "forgets their pants during a TED Talk",
+    "tries to flirt with a Chatbot",
+    "breaks into a dance in a silent library",
+    "gets stuck in a baby swing for 6 hours",
+    "cries while reading a menu at a fancy restaurant",
+    "challenges a toddler to a wrestling match",
+    "gets banned from a local 'All You Can Eat' buffet",
+    "mistakes a trash can for a VIP seat"
 ]
 
 places = [
-    "at Red Fort",
-    "in Mumbai local train",
-    "in a meeting with PM",
-    "during IPL match",
-    "inside a crowded Metro during rush hour",
-    "while stuck in a 4-hour Bangalore traffic jam",
-    "at a grand funeral for a dead housefly",
-    "on a Zoom call with the CEO (while shirtless)",
-    "inside a giant pressure cooker",
-    "on the moon, desperately looking for a 5G signal",
-    "at the bottom of a cold bowl of Maggi",
-    "on top of the Taj Mahal for a TikTok",
-    "inside the pocket of a Bollywood star",
-    "at a high-stakes Poker game in a Dhaba",
-    "underneath a sleeping cow"
+    "at a high-speed blind date",
+    "inside a very small elevator with their ex",
+    "during a live televised yoga session",
+    "in the middle of a serious court hearing",
+    "at a wedding for two goldfish",
+    "on a first date at a public toilet",
+    "while hiding under a table in the office",
+    "at a 'No Screaming' meditation retreat",
+    "inside a haunted Vada Pav stall",
+    "on a treadmill at 3:00 AM"
 ]
 
 def generate_news():
