@@ -4,7 +4,6 @@ import random
 app = Flask(__name__)
 
 subjects = [
-    "Shahrukh Khan",
     "Salman Khan",
     "Aamir Khan",
     "Akshay Kumar",
